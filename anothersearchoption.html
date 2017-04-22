@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--this is the basic format for setting up the website to be searched for on the web, just make sure we have the
+correct web address, check to make sure it works-->
+
+    <form method="get" action ="http://www.google.com/search">
+        <label for ="q">Search:</label>
+            <input id="q" name="q" size="20" maxlength="255" value="" type="hidden"/>
+            <input name="domains" value="http://www.Great Barrier Reef Orchestra/" type="hidden"/>
+            <input name="sitesearch" value="http://www.Great Barrier Reef Orchestra/" checked="checked" id="mysite"
+                   type="radio"/>
+            <label for="mysite">Just this site</label>
+            <input name="sitesearch" value="" id="www" type="radio"/>
+            <label for="www">WWW</label>
+            <input name="btnG" value="Go" type="submit"/>
+        </form>
+
+</body>
+</html>
