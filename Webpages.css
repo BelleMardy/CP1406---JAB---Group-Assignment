@@ -1,0 +1,71 @@
+html {
+	font-family: Gill Sans MT (Body);
+	color: white;
+	background-color: #1a75ff; 
+	background-image: url("images/backgrounds/Ribbon Blue Background.jpg");
+}
+
+a {
+	font-family: Gill Sans MT (Body);
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+}
+
+#SearchBarForm {
+	background-color: black;
+	float: left;
+	width: 100%;
+}
+
+.searchform {
+	float: right;
+	max-height: 20px;
+}
+
+.TopBanner {
+	width: 100%;
+}
+
+#BROsidenav {
+	border: 25px solid red;
+	border-color: #1a75ff;
+	background-color: #1a75ff;
+}
+
+#BROsidenav_img{
+	float: left; 
+	width: 40%;
+}
+
+#BROsidenav_p{
+	float: right;
+	width: 55%;
+}
+
+#Sanitizer{
+	clear: both;
+}
+
+#Body_Sidenav{
+	float: left;
+	width:13%
+}
+
+#Body_Text{
+	float: left;
+}
+
+img.Banner{
+	max-height: 90px;
+	width: auto;
+	margin-left: 12px;
+}
+
+#Banner{
+	background-color: white;
+	height: 90px;
+}
