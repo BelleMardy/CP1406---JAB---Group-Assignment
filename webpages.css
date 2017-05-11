@@ -123,3 +123,16 @@ td {
 	width: 50%;
 	height: auto;
 }
+
+.Contact_UsTable {
+	position : relative;
+	top: -160px;
+}
+
+.ContactUsList {
+	list-style: none;
+}
+
+#PostalList {
+	text-indent: 65px;
+}
