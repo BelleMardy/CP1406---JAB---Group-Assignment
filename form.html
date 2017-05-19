@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1>Membership Application North Queenslaqnd Ensembles Inc</h1>
+<h1>Membership Application North Queensland Ensembles Inc</h1>
 
-<h3>Membership</h3>
-<input title="membership" type="hidden">Renewal membership
-<input title="membership" type="hidden">New membership
+<p><strong>Membership</strong></p>
+<label><input type="radio" name="membership" value="Renew membership">Renew membership</label>
+<label><input type="radio" name="membership" value="New membership">New membership</label>
+<br><br>
 
-Membership type:
-Adult
-Family
-Student
-Concession
+<label class="membership type"><strong>Membership type:</strong></label>
+<select name="membership type">
+    <option value="select">Select</option>
+    <option value="Adult">Adult</option>
+    <option value="Family">Family</option>
+    <option value="Student">Student</option>
+    <option value="Concession">Concession</option>
+</select>
+<br><br>
 
-Student/Concession Number
+<label class="student/concession number:"><strong>Student/Concession Number:</strong></label>
+<input type="text" name="student/concession number" id="student/concession number" size="20" maxlength=20" />
+<br>
 
-Applicant Details
-Title(s): #optional entry
-Family Name:
-Given Name(s):
+<p><strong>Applicant Details</strong></p>
+<form>
+    Family Name: <input type="text" name="familyname"><br>
+    Given Name(s): <input type="text" name="givennames"><br>
+</form>
+<br>
 
-Children of family membership:
-1. DOB:
-2. DOB:
-3. DOB:
-Address:
-Postcode:
-Preferred Contact:
-Mobile:
-Email:
+<p><strong>Children of family membership:</strong></p>
+<form>
+1. <input type="text" name="child1"> DOB: <input type="text" name="dob1"><br>
+2. <input type="text" name="child2"> DOB: <input type="text" name="dob2"><br>
+3. <input type="text" name="child3"> DOB: <input type="text" name="dob3"><br><br>
+Address: <input type="text" name="address"> Postcode: <input type="text" name="postcode"><br>
+Preferred Contact: <input type="text" name="preferredcontact"> Mobile: <input type="text" name="mobile"><br>
+Email: <input type="text" name="email"><br>
+</form>
+<br>
 
-Membership fees:
+<p><strong>Membership fees:</strong></p>
 Adult: $30
 Family $60
 Full time student: $15
@@ -63,5 +73,76 @@ Qualifications:
 Experience:
 
 <p>North Queensland Ensembles Inc. is the administration body of the Barrier Reef Orchestra, by becoming a member you are supporing the Orchestra which was formed in 2000.</p>
+
+
+<form action="/action_page.php">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <input type="submit" value="Submit">
+</form>
+<br><br>
+
+<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea>
+<br><br>
+
+<form action="/action_page.php">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male"><br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female"><br>
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other" value="other"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<br><br>
+
+<form>
+    <fieldset>
+        <legend>Personalia:</legend>
+        Name: <input type="text"><br>
+        Email: <input type="text"><br>
+        Date of birth: <input type="text">
+    </fieldset>
+</form>
+<br><br>
+
+<select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+</select>
+<br><br>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<br><br>
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<br><br>
+
+<form name="form1" method="post" action="start.php">
+<label for="name">Name</label>
+<input type="text" name="name" id="name">
+<label><input type="radio" name="gender" value="male" id="genderMale">Male</label>
+<label><input type="radio" name="gender" value="female" id="genderFemale">Female</label>
+<input type="submit" name="submit" id="submit" value="Submit"></form>
+<br><br>
+
+<form>	    Defines an HTML form for user input
+<input>	    Defines an input control
+<textarea>	Defines a multiline input control (text area)
+<label>	    Defines a label for an <input> element
+<fieldset>	Groups related elements in a form
+<legend>	Defines a caption for a <fieldset> element
+<select>	Defines a drop-down list
+<option>	Defines an option in a drop-down list
+<button>	Defines a clickable button
+<datalist>	Specifies a list of pre-defined options for input controls
+<keygen>	Defines a key-pair generator field (for forms)
+
 </body>
 </html>
