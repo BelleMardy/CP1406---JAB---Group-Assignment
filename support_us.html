@@ -7,31 +7,138 @@
 		<title>Barrier Reef Orchestra Homepage</title>
 		<link href="webpages.css" rel="stylesheet" type="text/css">
 
-	</head>
-	<body> <!-- Setting up Template for future pages-->
-	<font face= "Gill Sans MT">
-	<img class="TopBanner" src="images/Banner (2).png"/><div id="Sanitizer"/>
-<div id="SearchBarForm"><form method="get" action="https://google.com/search"><input type="hidden" name="sitesearch" value="http://ditwebcns.jcu.edu.au/~tcmc/m1/" /><input type="text" name="search" class="searchform" placeholder="Search.."/><img class="searchform" src="images/searchform.png"></form></div> <!-- Search Bar with Div -->
-	<div id="Sanitizer"/>
-	<div id="Body_Sidenav"><div id="BROsidenav"> <!-- Sidenav code -->
-		<a href="index.html">Home</a><br>
-		<a href="artists_events.html">Artists and Events</a><br>
-		<a href="about_us.html">About Us</a><br>
-		<a href="support_us.html">Support Us</a><br>
-		<a href="contact_us.html">Contact Us</a><br><br> 
-  <div id="BROsidenav_img">
- <img class="images" src="images/test_format.jpg"/></div><div id="BROsidenav_p"> <a href="https://www.facebook.com/groups/BROplayers">Barrier Reef Orchestra</a><br>
- </div><div id="Sanitizer"/><div id="BROsidenav_img">
- <img class="images" src="images/test_format.jpg"/></div><div id="BROsidenav_p"> <a href="https://www.facebook.com/nqorchestra">Barrier Reef Orchestra Players</a><br><br>
-	</div><div id="Sanitizer"/> <!-- Don't forget your sanitizers after a float! -->
-	Barrier Reef Orchestra<br>
-PO Box 576<br>
-Townsville  Qld  4810<br><br><br>
+    </head>
+    <body> <!-- Setting up Template for future pages-->
+    <font face= "Gill Sans MT">
+        <img class="TopBanner" src="images/Banner (2).png"/><div id="Sanitizer"/>
+        <div id="SearchBarForm"><form method="get" action="https://google.com/search"><input type="hidden" name="sitesearch" value="http://ditwebcns.jcu.edu.au/~tcmc/m1/" /><input type="text" name="search" class="searchform" placeholder="Search.."/><img class="searchform" src="images/searchform.png"></form></div> <!-- Search Bar with Div -->
+        <div id="Sanitizer"/>
+        <div id="Body_Sidenav"><div id="BROsidenav"> <!-- Sidenav code -->
+            <a href="index.html">Home</a><br>
+            <a href="artists_events.html">Artists and Events</a><br>
+            <a href="about_us.html">About Us</a><br>
+            <a href="support_us.html">Support Us</a><br>
+            <a href="contact_us.html">Contact Us</a><br><br>
+            <div id="BROsidenav_img">
+                <img class="images" src="images/test_format.jpg"/></div><div id="BROsidenav_p"> <a href="https://www.facebook.com/groups/BROplayers">Barrier Reef Orchestra</a><br>
+            </div>
+            <div id="Sanitizer"/><div id="BROsidenav_img">
+                <img class="images" src="images/test_format.jpg"/></div><div id="BROsidenav_p"> <a href="https://www.facebook.com/nqorchestra">Barrier Reef Orchestra Players</a><br><br>
+            </div>
+            <div id="Sanitizer"/> <!-- Don't forget your sanitizers after a float! -->
+            Barrier Reef Orchestra<br>
+            PO Box 576<br>
+            Townsville  Qld  4810<br><br><br>
+            p: +61 (0) 747 222 789<br>
+        </div></div></div></div><br> <!-- All body content of page goes after this-->
 
-p: +61 (0) 747 222 789<br>
-</div></div></div></div> <!-- All body content of page goes after this-->
-	
-	
+        <table width="85%"><tr><td width="60%"><div id="HomePageP"><font size="5">Membership Application North Queensland Ensembles Inc</font><br>
+		<br>All forms of membership attract benefits such as reduced price tickets, after concert meet and greets with artists and other social events.<br><br>
+            <form>
+                
+                <input type="radio" name="new/renew membership" id="new member" value="new member">
+                <label for="new member">New Member</label>
+				<input type="radio" name="new/renew membership" id="renew membership" value="renew membership" required>
+                <label for="renew membership">Renew Membership</label>
+            </form>
+            <form>
+                <label>Membership type:</label>
+                <select>
+                    <option name="membership type" id="select" value="select" required>Select</option>
+                    <option name="membership type" id="adult" value="adult">Adult</option>
+					<option name="membership type" id="family" value="family">Family</option>
+					<option name="membership type" id="student" value="student">Student</option>
+					<option name="membership type" id="concession" value="concession">Concession</option>
+                </select>
+
+                <label for="student/concession number">Student/Concession Number:</label>
+                <input type="text" name="student/concession number" id="student/concession number" size="10" maxlength=10">
+            </form>
+            <form>
+                <label><strong>Applicant Details</strong></label><br>
+                <label for="family name">Family Name:</label>
+                <input type="text" name="family name" id="family name" required>
+                <label for="given names">Given Names:</label>
+                <input type="text" name="given names" id="given names" required><br>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" required>
+                <label for="postcode">Postcode:</label>
+                <input type="text" name="postcode" id="postcode" required><br>
+                <label for="preferred contact">Preferred Contact:</label>
+                <input type="text" name="preferred contact" id="preferred contact" required>
+                <label for="mobile">Mobile:</label>
+                <input type="text" name="mobile" id="mobile" required><br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required><br><br>
+
+                <label>Children of family membership:</label><br>
+                <label for="child1">1.</label>
+                <input type="text" name="child1" id="child1">
+                <label for="dob1">DOB:</label>
+                <input type="text" name="dob1" id="dob1"><br>
+
+                <label for="child2">2.</label>
+                <input type="text" name="child2" id="child2">
+                <label for="dob2">DOB:</label>
+                <input type="text" name="dob2" id="dob2"><br>
+
+                <label for="child3">3.</label>
+                <input type="text" name="child3" id="child3">
+                <label for="dob3">DOB:</label>
+                <input type="text" name="dob3" id="dob3"><br>
+            </form>
+
+            <label><strong>Membership fees:</strong></label><br>
+            <label>Adult: $30. Family $60. Full time student: $15. Under 18: $15. Concession: $15.</label><br>
+            <label>Concession available to persons in reciept of Centrelink pension card. Family membership available
+                to a group of two adults and three persons under the age of 28 all of whom reside at the same address.</label><br><br>
+
+            <form>
+                <label><strong>Payment Options:</strong></label><br>
+                <input type="radio" name="payment options" id="cash" required>
+                <label for="cash">Cash $</label>
+                <input type="text" name="cash" id="cash">
+                <input type="radio" name="payment options" id="cheque">
+                <label for="cheque">Cheque $</label>
+                <input type="text" name="cheque" id="cheque"><br>
+                <input type="radio" name="payment options" id="direct debit">
+                <label for="direct debit">Direct Debit to: NQ Ensembles Inc. BSB 034 222 Account: 173033</label><br>
+                <label for="direct debit">(Please include family name as payment reference)</label><br>
+            </form>
+
+            <form>
+                <label><strong>I am interested in: </strong></label><br>
+                <input type="checkbox" name="orchestra positions" id="player" required>
+                <label for="player">Player in the Orchestra or Ensembles</label><br>
+                <input type="checkbox" name="orchestra positions" id="management/admin">
+                <label for="management/admin">Management/administration</label><br>
+                <input type="checkbox" name="orchestra positions" id="support">
+                <label for="support">Player Support</label><br>
+                <input type="checkbox" name="orchestra positions" id="fundraising">
+                <label for="fundraising">Fundraising</label><br>
+                <input type="checkbox" name="orchestra positions" id="marketing">
+                <label for="marketing">Marketing/Promotion</label><br>
+                <input type="checkbox" name="orchestra positions" id="sponsorship">
+                <label for="sponsorship">Sponsorship</label><br>
+                <input type="checkbox" name="orchestra positions" id="publishing">
+                <label for="publishing">Destop publishing</label><br>
+            </form>
+
+            <form>
+                <label><strong>Player Registration</strong></label><br>
+                <label for="instruments">Instrument/s played: </label><br>
+                <textarea name="registrations" id="instruments" rows="6" cols="80" required></textarea><br>
+                <label for="qualifications">Qualifications: </label><br>
+                <textarea name="registrations" id="qualifications" rows="6" cols="80"></textarea><br>
+                <label for="experience">Experience: </label><br>
+                <textarea name="registrations" id="experience" rows="6" cols="80"></textarea><br>
+            </form>
+
+			<label>North Queensland Ensembles Inc. is the administration body of the Barrier Reef Orchestra, by becoming a member you are supporting the Orchestra which was formed in 2000.</label><br><br>
+
+            <input type="submit" value="Submit" /><br><br>
+		</table><br><br><br>
+
 	</div><div id="Sanitizer"/> <!-- Bottom banner: keep after sanitizer -->
 	<div id="Banner">
 	<img class="Banner" src="images/MajorSponsor.png"/>
