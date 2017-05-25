@@ -3,6 +3,11 @@ html {
 	color: white;
 	background-color: #1a75ff; 
 	background-image: url("images/Ribbon Blue Background.jpg");
+	background-size: 145%;
+}
+
+#scalability {
+	width: 1600px;
 }
 
 a {
@@ -58,6 +63,15 @@ a:hover {
 	padding: 25px;
 	background-color: #1a75ff;
 	height: 100%;
+}
+
+#BROSidenavSupport {
+	border-style: solid;
+	padding: 3px;
+	border-width: 3px;
+	border-color: white;
+	background-color: yellow;
+	text-align: center;
 }
 
 #BROsidenav_img{
@@ -136,3 +150,109 @@ td {
 #PostalList {
 	text-indent: 65px;
 }
+
+.ArtistPhoto {
+	min-height: 253px;
+}
+
+.ArtistNames {
+	text-align: center;
+}
+
+.BulletinBoard {
+	float: right;
+	margin-right: 8%;
+	margin-top: -450px;
+}
+
+#ArtistsBB{
+	width: 30%;
+	padding: 10px;
+	background-color: #1a75ff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-left: 15%;
+}
+
+#BBSidenavFiller {
+	border-style: solid;
+	border-width: 2px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-color: black;
+	padding: 25px;
+	background-color: #1a75ff;
+	height: 400px;
+	float: left;
+	margin-left: -45px;
+	margin-top: -100px;
+}
+
+#InvisiTextBB {
+	color: #1a75ff;
+}
+
+#BuyNowBB {
+	width: 30%;
+	padding: 10px;
+	background-color: #1a75ff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-left: 15%;
+
+}
+
+.TicketShop {
+	padding:30px;
+}
+
+#BottomBannerBumpup {
+	margin-top: -600px;
+}
+
+#BBSidenavFillerSupport {
+	border-style: solid;
+	border-width: 2px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-color: black;
+	padding: 25px;
+	background-color: #1a75ff;
+	height: 650px;
+	float: left;
+	margin-left: -45px;
+	margin-top: -600px;
+}
+
+.ArtistBust {
+	margin-left: 30%;
+	padding: 30px;
+}
+
+#ArtistSpiel {
+	width: 60%;
+	padding: 10px;
+	background-color: #1a75ff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-left: 20%;
+}
+
+#ArtistSidenavFiller {
+	border-style: solid;
+	border-width: 2px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-color: black;
+	padding: 25px;
+	background-color: #1a75ff;
+	height: 300px;
+	float: left;
+	margin-left: -45px;
+	margin-top: -300px;
